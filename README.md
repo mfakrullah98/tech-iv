@@ -5,7 +5,7 @@
 1. Clone the repository
 2. Run `composer install` (if you don't have composer installed, you can download it from [here](https://getcomposer.org/download/)
 3. laravel uses .env file for environment variables, you can copy the .env.example file and rename it to .env
-4. Run `touch database/database.sqlite` to create the database file ( make sure that terminal is in the root directory of the project) This is assuming you will use sqlite, if not can ignore this step
+4. Run `touch database/database.sqlite` or on Windows just click create new file inside database and name the file database.sqlite to create the database file ( make sure that terminal is in the root directory of the project) This is assuming you will use sqlite, if not can ignore this step
 5. Run `php artisan migrate` to create the database tables
 6. To populate with some data, first run `php artisan tinker` and then run `\App\Models\Department::factory()->count(3)->create()` to create the departments
 7. Then run `\App\Models\User::factory()->count(5)->create()` to create the users
