@@ -17,6 +17,8 @@ class ApiUserResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
+            'email' => $this->email,
+            'phoneNumber' => $this->phone_number,
             'department' => $this->department,
         ];
     }
