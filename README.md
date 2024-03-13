@@ -9,6 +9,7 @@
 5. Run `php artisan migrate` to create the database tables
 6. To populate with some data, first run `php artisan tinker` and then run `\App\Models\Department::factory()->count(3)->create()` to create the departments
 7. Then run `\App\Models\User::factory()->count(5)->create()` to create the users
+8. Generate the app key by running `php artisan key:generate`
 8. To run the server, run `php artisan serve` and go to the url provided in the terminal
 
 ## Routes
